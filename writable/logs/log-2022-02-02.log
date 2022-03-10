@@ -1,0 +1,185 @@
+CRITICAL - 2022-02-02 18:16:25 --> Undefined variable: thus
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 18:16:43 --> Undefined property: App\Controllers\MenuController::$menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 18:17:21 --> Undefined property: App\Controllers\MenuController::$menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 18:17:28 --> Undefined property: App\Controllers\MenuController::$menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 19:23:06 --> Undefined property: App\Controllers\MenuController::$menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 19:29:02 --> Undefined property: App\Controllers\MenuController::$menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 19:29:52 --> Call to undefined method CodeIgniter\Session\Session::getFlasdata()
+#0 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#3 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(25): view('menu', Array)
+#4 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-02 20:17:26 --> Undefined property: App\Controllers\pesanController::$pesans
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-02 20:17:29 --> Undefined property: App\Controllers\pesanController::$pesans
+#0 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#3 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-02 20:18:27 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+CRITICAL - 2022-02-02 20:18:27 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+#0 C:\xampp\htdocs\app_resto_ria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\app_resto_ria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app_resto_ria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app_resto_ria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-02 20:20:45 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+CRITICAL - 2022-02-02 20:20:45 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+#0 C:\xampp\htdocs\app_resto_ria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\app_resto_ria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app_resto_ria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app_resto_ria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-02 20:21:07 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+CRITICAL - 2022-02-02 20:21:08 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+#0 C:\xampp\htdocs\app_resto_ria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\app_resto_ria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app_resto_ria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app_resto_ria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-02-02 20:23:12 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+CRITICAL - 2022-02-02 20:23:12 --> Table 'db_resto_ria.tb_pesan' doesn't exist
+#0 C:\xampp\htdocs\app_resto_ria\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\app_resto_ria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\app_resto_ria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\app_resto_ria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\app_resto_ria\app\Controllers\pesanController.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\pesanController->tampil()
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pesanController))
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-02-02 21:14:40 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gesPost()
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-02 21:16:05 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::gesPost()
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->create()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-02 21:16:31 --> Undefined index: jenis kelamin
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\user.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\UserController.php(25): view('user', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-02 21:28:23 --> Undefined index: nomer_TELP
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\UserController.php(25): view('user', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-02 21:28:25 --> Undefined index: nomer_TELP
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\UserController.php(25): view('user', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

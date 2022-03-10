@@ -1,0 +1,32 @@
+ERROR - 2022-03-04 18:45:52 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-03-04 18:45:52 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\app_cafe_ambar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\app_cafe_ambar\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app_cafe_ambar\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app_cafe_ambar\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\app_cafe_ambar\app\Controllers\PesanController.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(825): App\Controllers\PesanController->simpan()
+#9 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+#10 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_cafe_ambar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\app_cafe_ambar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-03-04 18:51:45 --> Unknown column 'nama' in 'field list'
+CRITICAL - 2022-03-04 18:51:45 --> Unknown column 'nama' in 'field list'
+#0 C:\xampp\htdocs\app_cafe_ambar\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\app_cafe_ambar\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\app_cafe_ambar\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\app_cafe_ambar\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\app_cafe_ambar\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\app_cafe_ambar\app\Controllers\PesanController.php(103): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(825): App\Controllers\PesanController->simpan()
+#9 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PesanController))
+#10 C:\xampp\htdocs\app_cafe_ambar\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_cafe_ambar\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\app_cafe_ambar\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}

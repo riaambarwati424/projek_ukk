@@ -1,0 +1,179 @@
+CRITICAL - 2022-01-30 18:45:37 --> Invalid file: layout/componets/sidebar.php
+#0 C:\xampp\htdocs\app_resto_ria\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/componet...')
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(424): CodeIgniter\View\View->render('layout/componet...', NULL, true)
+#2 C:\xampp\htdocs\app_resto_ria\app\Views\layout\admin.php(30): CodeIgniter\View\View->include('layout/componet...')
+#3 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\app_resto_ria\system\View\View.php(226): CodeIgniter\View\View->render('layout/admin', Array, true)
+#6 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#7 C:\xampp\htdocs\app_resto_ria\app\Controllers\Home.php(13): view('dashboard')
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-01-30 18:49:33 --> Invalid file: layout/components/sidebar.php
+#0 C:\xampp\htdocs\app_resto_ria\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/componen...')
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(424): CodeIgniter\View\View->render('layout/componen...', NULL, true)
+#2 C:\xampp\htdocs\app_resto_ria\app\Views\layout\admin.php(30): CodeIgniter\View\View->include('layout/componen...')
+#3 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\app_resto_ria\system\View\View.php(226): CodeIgniter\View\View->render('layout/admin', Array, true)
+#6 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#7 C:\xampp\htdocs\app_resto_ria\app\Controllers\Home.php(13): view('dashboard')
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-01-30 18:49:39 --> Invalid file: layout/components/sidebar.php
+#0 C:\xampp\htdocs\app_resto_ria\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/componen...')
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(424): CodeIgniter\View\View->render('layout/componen...', NULL, true)
+#2 C:\xampp\htdocs\app_resto_ria\app\Views\layout\admin.php(30): CodeIgniter\View\View->include('layout/componen...')
+#3 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\app_resto_ria\system\View\View.php(226): CodeIgniter\View\View->render('layout/admin', Array, true)
+#6 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#7 C:\xampp\htdocs\app_resto_ria\app\Controllers\Home.php(13): view('dashboard')
+#8 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#9 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-01-30 20:19:17 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\userController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\userController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:19:34 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\userController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\userController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:20:04 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:20:06 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:20:06 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:20:09 --> Class 'App\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:21:14 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:21:16 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:23:02 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:23:10 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:23:12 --> Class 'App\Models\UserModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-30 20:25:02 --> Class 'App\Models\MenuModel' not found
+#0 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#1 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#2 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-01-30 20:26:09 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-01-30 20:26:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\app_resto_ria\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app_resto_ria\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\app_resto_ria\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\app_resto_ria\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\UserController.php(11): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\UserController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-30 20:28:50 --> Undefined variable: menju
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\menu.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(12): view('menu', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-30 20:29:15 --> Undefined variable: menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\menu.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(12): view('menu', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-30 20:29:17 --> Undefined variable: menu
+#0 C:\xampp\htdocs\app_resto_ria\app\Views\menu.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\app_resto_ria\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\app_resto_ria\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\app_resto_ria\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\xampp\htdocs\app_resto_ria\app\Controllers\MenuController.php(12): view('menu', Array)
+#5 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(825): App\Controllers\MenuController->tampil()
+#6 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MenuController))
+#7 C:\xampp\htdocs\app_resto_ria\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\app_resto_ria\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\app_resto_ria\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
